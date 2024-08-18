@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.club.field_location
+    - field.field.node.club.field_name
+    - field.field.node.club.field_website
+    - node.type.club
+  module:
+    - user
+id: node.club.teaser
+targetEntityType: node
+bundle: club
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_location: true
+  field_name: true
+  field_website: true
