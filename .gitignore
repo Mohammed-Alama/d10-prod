@@ -1,5 +1,5 @@
 /vendor/
-sites/*/settings.php
+sites/default/settings.php
 sites/*/settings*.php
 sites/*/services*.yml
 web/sites/*/files
